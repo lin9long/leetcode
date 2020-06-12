@@ -37,7 +37,7 @@ class Solution:
                     pos_b -= 1
                 return True
 
-            # print(row,len(matrix))
+            print(row,len(matrix))
             if row == len(matrix):
                 d_l.append([''.join(matrix[i]) for i in range(len(matrix))])
                 return
