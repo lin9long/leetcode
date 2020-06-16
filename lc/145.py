@@ -6,6 +6,9 @@ class TreeNode:
 
 
 class Soluation:
+    """
+    后续遍历二叉树
+    """
 
     def postorderTreveral(self, root: TreeNode):
 
