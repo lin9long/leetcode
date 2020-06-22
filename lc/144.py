@@ -16,7 +16,7 @@ class Soluation:
         res = []
         node = root
         stack = [root]
-        while stack :
+        while stack:
             # while node:
             #     node = node.left if node.left is not None else node.right
             #     stack.append(node)
