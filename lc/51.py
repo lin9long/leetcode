@@ -37,7 +37,7 @@ class Solution:
                     pos_b -= 1
                 return True
 
-            print(row,len(matrix))
+            # print(row,len(matrix))
             if row == len(matrix):
                 d_l.append([''.join(matrix[i]) for i in range(len(matrix))])
                 return
@@ -63,7 +63,7 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    res = s.solveNQueens(8)
+    res = s.solveNQueens(12)
     print(res)
 
 # class Solution:
